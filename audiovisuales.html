@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Eliza's Burger</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        background: linear-gradient(
+          to right,
+          rgb(231, 124, 124),
+          rgb(255, 233, 236)
+        );
+        padding: 0;
+        margin: 0;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 15px;
+        background-color: #f0e8e8;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #d86262;
+      }
+
+      h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #92a4ff;
+      }
+
+      div.gallery {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 33vw;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 50%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .centrado {
+        display: flex;
+        justify-content: center;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img
+          src="assets/img/logo-3.png"
+          alt=""
+          width="300"
+          style="margin: 15px"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="audiovisuales.html" class="active">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="centrado">
+        <video
+          src="./assets/video/eliza's-burger.mp4"
+          autoplay
+          controls
+          style="margin-bottom: 15px"
+        ></video>
+      </div>
+      <div class="centrado" style="margin-bottom: 15px">
+        <audio src="assets/audio/ad-song.mp3" autoplay controls muted></audio>
+      </div>
+      <div class="centrado">
+        <div class="gallery centrado">
+          <img src="assets/img/logo-1.png" alt="Logo de Eliza's Burger" />
+        </div>
+        <div class="gallery centrado">
+          <img src="assets/img/logo-2.png" alt="Logo de Eliza's Burger" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2025</p>
+    </footer>
+  </body>
+</html>
