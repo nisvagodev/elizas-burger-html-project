@@ -2,7 +2,7 @@
 
 [ELIZA'S BURGER](elizas-burger.netlify.app/)
 
-![Captura de pantalla del proyecto HTML](https://raw.githubusercontent.com/nisvagodev/eliza's-burger-html-project/main/assets/img/captura-pantalla.png)
+![Captura de pantalla del proyecto HTML](https://github.com/nisvagodev/elizas-burger-html-project/blob/aa7dd0ca25257a0c3b9a27253e7a21857463b176/assets/img/captura-de-pantalla.PNG)
 
 Este es el repositorio de la página web "Eliza's Burger", creada como parte de practicar HTML y CSS. La página cuenta la historia del negocio de Eliza's Burger, una hamburgueseria única que desea mostrar su identidad visual en la web.
 
