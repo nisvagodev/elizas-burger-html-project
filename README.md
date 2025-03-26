@@ -8,9 +8,9 @@ Este es el repositorio de la página web "Eliza's Burger", creada como parte de 
 
 En esta página podrás encontrar:
 
-- La historia completa de Eliza's Burger y su historia.
+- La historia completa de Eliza's Burger y su negocio.
 - Imágenes y videos de la identidad visual de Eliza's Burger.
-- Una sección de preferencias de Eliza's Burger.
+- Una sección de productos de Eliza's Burger.
 - Un formulario para contactar con el equipo de campaña de Eliza's Burger.
 
 La página ha sido creada utilizando HTML y CSS para practicar lo aprendido.
